@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'DM Sans', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 800;
+}
+
+.bg-disclaimer {
+    background-color: rgb(248, 239, 228);
+}
+
+.bg-disclaimer h3 {
+    color: #F29900;
+}
+
+.border-sm {
+    border-radius: 15px;
+}
